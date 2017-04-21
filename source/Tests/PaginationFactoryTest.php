@@ -7,7 +7,7 @@ use Kilte\Silex\Pagination\PaginationFactory;
 /**
  * @coversDefaultClass Kilte\Silex\Pagination\PaginationFactory
  */
-class PaginationFactoryTest extends \PHPUnit_Framework_TestCase
+class PaginationFactoryTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @covers ::__construct
