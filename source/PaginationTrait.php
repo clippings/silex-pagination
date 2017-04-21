@@ -7,6 +7,8 @@
  */
 namespace Kilte\Silex\Pagination;
 
+use Kilte\Pagination\Pagination;
+
 /**
  * PaginationTrait Trait.
  */
@@ -25,6 +27,9 @@ trait PaginationTrait
      */
     public function pagination($total, $current, $perPage = null, $neighbours = null): Pagination
     {
-        return $this['pagination']($total, $current, $perPage, $neighbours);
+        /** @var Pagination $pagination */
+        $pagination = $this['pagination']($total, $current, $perPage, $neighbours);
+
+        return $pagination;
     }
 }
