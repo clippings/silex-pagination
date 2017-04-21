@@ -27,7 +27,7 @@ class PaginationServiceProvider implements ServiceProviderInterface
             return new PaginationFactory($app['pagination.per_page'], $app['pagination.neighbours']);
         };
         $app['pagination'] = $app->protect(
-            function ($total, $current, $perPage = null, $neighbours = null) use ($app) {
+            function ($total, $current, $perPage = null, $neighbours = null) use ($app): Pagination {
                 $factory = $app['pagination.factory'];
 
                 return $factory->create($total, $current, $perPage, $neighbours);
