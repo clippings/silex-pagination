@@ -42,6 +42,16 @@ $ vendor/bin/phpunit
 
 ## Changelog
 
+### 3.0.0 \[21.04.17\]
+
+- Add PaginationFactory class
+- Drop PHP 5.x support
+- Upgrade to PHPUnit 6
+
+### 2.0.0 \[23.08.16\]
+
+- Support Silex 2.x and Pimple 3.x
+
 ### 1.1.1 \[31.08.14\]
 
 - Added unit tests

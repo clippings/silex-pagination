@@ -13,7 +13,7 @@ use Pimple\Container;
 /**
  * Class PaginationServiceProviderTest.
  */
-class PaginationServiceProviderTest extends \PHPUnit_Framework_TestCase
+class PaginationServiceProviderTest extends \PHPUnit\Framework\TestCase
 {
     public function testRegisterDefaultValues()
     {

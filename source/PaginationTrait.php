@@ -23,7 +23,7 @@ trait PaginationTrait
      * @return \Kilte\Pagination\Pagination
      * @codeCoverageIgnore
      */
-    public function pagination($total, $current, $perPage = null, $neighbours = null)
+    public function pagination($total, $current, $perPage = null, $neighbours = null): Pagination
     {
         return $this['pagination']($total, $current, $perPage, $neighbours);
     }
