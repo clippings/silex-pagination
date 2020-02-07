@@ -19,14 +19,14 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=7",
         "amstaffix/pagination": "~1.1",
         "pimple/pimple": "^3.0"
     },
     "require-dev": {
         "silex/silex": "*",
         "twig/twig": ">=1.8,<2.0-dev",
-        "phpunit/phpunit": "^6.1"
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {
