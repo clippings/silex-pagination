@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php": ">=7",
+        "php": "^7.1",
         "amstaffix/pagination": "~1.1",
         "pimple/pimple": "^3.0"
     },
