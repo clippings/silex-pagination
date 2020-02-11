@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "295f3079c4442974818c95b2566e3c41",
+    "content-hash": "57f6f7ffe6fa163a2e39f657eab960af",
     "packages": [
         {
             "name": "amstaffix/pagination",
@@ -2050,12 +2050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d1686608d502d140656f2c34be14f2eba0e2d71d"
+                "reference": "c9846876883b4ffa7d53255e342a49d160d832cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d1686608d502d140656f2c34be14f2eba0e2d71d",
-                "reference": "d1686608d502d140656f2c34be14f2eba0e2d71d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c9846876883b4ffa7d53255e342a49d160d832cd",
+                "reference": "c9846876883b4ffa7d53255e342a49d160d832cd",
                 "shasum": ""
             },
             "require": {
@@ -2106,7 +2106,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2020-01-31T08:01:23+00:00"
+            "time": "2020-02-11T07:48:29+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -2165,7 +2165,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7"
+        "php": "^7.1"
     },
     "platform-dev": []
 }
